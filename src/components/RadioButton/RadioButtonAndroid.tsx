@@ -156,7 +156,8 @@ const RadioButtonAndroid = ({
               style={[
                 styles.radio,
                 {
-                  borderColor: selectionControlColor,
+                  backgroundColor: '#D9D9D9',
+                  borderColor: '#D9D9D9',
                   borderWidth: borderAnim,
                 },
               ]}
@@ -196,12 +197,11 @@ const styles = StyleSheet.create({
     height: 20,
     width: 20,
     borderRadius: 10,
-    margin: 8,
   },
   dot: {
-    height: 10,
-    width: 10,
-    borderRadius: 5,
+    height: 14,
+    width: 14,
+    borderRadius: 7,
   },
 });
 
